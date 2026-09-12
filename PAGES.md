@@ -1,10 +1,8 @@
-# GitHub Pages — v2
+# GitHub Pages — v3
 
-Pages用の静的ファイルはリポジトリ直下の index.html と assets/ に保存済みです。
+URL: https://gakkii415.github.io/cloud-lab-simulator/?v=3
 
-## 状態
-
-2026-09-12: GitHub Pages有効化時に HTTP 422: Your current plan does not support GitHub Pages for this repository. が返されました。非公開リポジトリを維持しています。Pagesは未公開です。
+公開元: main ブランチのルート。リポジトリとPagesサイトは公開です。
 
 ## 再ビルド
 
@@ -12,4 +10,8 @@ Pages用の静的ファイルはリポジトリ直下の index.html と assets/ 
 pnpm exec vite build --config vite.pages.config.ts
 ```
 
-`.pages-output/` の内容をルートの公開ファイルに反映してコミットしてください。アプリ本体は `app/page.tsx` を共有します。
+`.pages-output/` の index.html、assets/、favicon.svg をリポジトリ直下へ反映し、mainへコミットしてください。`.nojekyll` を維持します。mainへの反映でGitHub Pagesが公開処理を実行します。アプリ本体は `app/page.tsx` をSites版と共有します。
+
+## 履歴
+
+v2では非公開リポジトリのプラン制限によりPages有効化が失敗しました。v3でユーザーの承認を受けて公開リポジトリへ変更し、Pagesの有効化が成功しました。
