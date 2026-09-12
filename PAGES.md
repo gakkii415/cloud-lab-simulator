@@ -1,6 +1,6 @@
-# GitHub Pages — v3
+# GitHub Pages — v4
 
-URL: https://gakkii415.github.io/cloud-lab-simulator/?v=3
+URL: https://gakkii415.github.io/cloud-lab-simulator/?v=4
 
 公開元: main ブランチのルート。リポジトリとPagesサイトは公開です。
 

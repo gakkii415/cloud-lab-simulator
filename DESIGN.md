@@ -350,14 +350,14 @@ Yesの場合、装飾を追加する前に、構成、情報階層、コンテ�
 
 ## Project Direction
 
-- Product / users / primary task:
-- Context of use / target devices:
-- Desired impression:
-- Information density / hierarchy:
-- Reference products / source URLs:
-- Selected reference dimensions / what to borrow:
-- What not to copy / avoid:
-- Structural direction:
-- Typography / color / spacing / shape direction:
-- Motion / responsive direction:
-- Durable design decisions:
+- Product / users / primary task: クラウド初学者のミッション選択、設定、検証。
+- Context of use / target devices: PCとスマートフォン。小画面ではナビを開閉しフォームを縦積み。
+- Desired impression: 読みやすい学習用コンソール。
+- Information density / hierarchy: 上部はクラウド・レベル、左は教材、主領域は課題とリソース管理。
+- Reference products / source URLs: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-launch-instance-wizard.html 、https://docs.cloud.google.com/compute/docs/instances/create-start-instance 、https://docs.aws.amazon.com/AmazonS3/latest/userguide/GetStartedWithS3.html
+- Selected reference dimensions / what to borrow: リソース名・リージョン・構成設定・作成・編集の順序。公式文書は確認済み。公式画面のブラウザ取得は接続制限で失敗したため、ピクセル再現とはしない。
+- What not to copy / avoid: 実在画面の完全複製、架空の実料金、無関係な装飾。
+- Structural direction: 課題と操作の2領域、構成は概念図で補足。
+- Typography / color / spacing / shape direction: 紺ヘッダー、明るい本文、Lv1ティール・AWSオレンジ・GCPブルー。
+- Motion / responsive direction: 不要なアニメーションなし。390px幅で横スクロールなしを確認。
+- Durable design decisions: 実画面レビューでヘッダーのセレクト配色を修正。修正後のデスクトップ・モバイル再評価で新たな必須改善なし。

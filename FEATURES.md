@@ -46,11 +46,11 @@
 
 ## Project Feature Maturity
 
-- Product / users / core outcome:
-- Current maturity:
-- Core feature set / completion criteria:
-- Next target state:
-- Expansion Set:
-- Deferred or rejected items / reasons:
-- Important flows / states / data decisions:
-- Durable feature decisions:
+- Product / users / core outcome: 初学者が本物のアカウントなしでクラウド構成と設定の結果を体験する。
+- Current maturity: v4、11ミッション・33課題、AWS/GCP、2レベル。
+- Core feature set / completion criteria: 作成→検証→誤設定の修正→課題進行→完了。再読み込みとモード切替で進捗を保持。
+- Next target state: 今回の拡充を完了。全体再評価で新たな必須改善なし。
+- Expansion Set: 一般用途10ミッション追加、実習コンソール、編集・削除・検証・ヒント・ログ・進捗保存。
+- Deferred or rejected items / reasons: 実クラウド接続、認証、実課金、CLIは完全シミュレータの範囲外。
+- Important flows / states / data decisions: provider:level:missionで分離しlocalStorageへ保存。設定変更は検証結果を無効化。前段階の要件も検証する。
+- Durable feature decisions: 実料金を表示しない。誤設定は編集して回復可能。障害復旧課題は主系停止を状態へ反映。

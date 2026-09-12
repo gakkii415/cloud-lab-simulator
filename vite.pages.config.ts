@@ -7,6 +7,7 @@ export default defineConfig({
   base: "/cloud-lab-simulator/",
   publicDir: fileURLToPath(new URL("./public", import.meta.url)),
   plugins: [react()],
+  resolve: { alias: { "@": fileURLToPath(new URL(".", import.meta.url)) } },
   css: { postcss: fileURLToPath(new URL(".", import.meta.url)) },
   build: {
     outDir: fileURLToPath(new URL("./.pages-output", import.meta.url)),

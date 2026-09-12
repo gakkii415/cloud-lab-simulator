@@ -48,12 +48,12 @@
 
 ## Project Content Maturity
 
-- Content value / audience / use context:
-- Content types / structure / quality bar:
-- Current maturity / coverage / depth:
-- Core content set / completion criteria:
-- Next target state:
-- Expansion Set:
-- Deferred or rejected areas / reasons:
-- Sources / freshness / maintenance:
-- Durable content decisions:
+- Content value / audience / use context: 特定の個人の関心に寄せず、一般的なクラウド利用を幅広く体験。
+- Content types / structure / quality bar: ミッション→3課題→操作→結果と解説。各課題に検証可能な設定条件を定義。
+- Current maturity / coverage / depth: Web、動画、ゲーム、EC、共有、AI、データ分析、IoT、社内接続、復旧、コスト。
+- Core content set / completion criteria: 全33課題が両レベルで完了でき、誤った選択と設定を説明できる。
+- Next target state: 今回の拡充完了。新規の必須コンテンツ追加なし。
+- Expansion Set: 一般用途10ミッションと実習用の設定説明。
+- Deferred or rejected areas / reasons: 資格試験網羅、実データ処理、実サービスの完全再現は対象外。
+- Sources / freshness / maintenance: AWS EC2起動ウィザード・S3入門、Google Compute Engine作成の公式文書を参照。サービス名や設定追加時に再確認。
+- Durable content decisions: GoogleのIoTは廃止済みCloud IoTを使わずVM上のMQTTとして表現。コストは架空単位。図は接続の概念図。
