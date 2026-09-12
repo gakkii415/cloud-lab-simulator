@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "../vendor/shadcn-tailwind-4.13.0.css";
+:root{--background:#07101f;--foreground:#f1f5f9;--primary:#22d3ee;--primary-foreground:#07101f;--card:#0d1a2e;--card-foreground:#f1f5f9;--border:#ffffff1a;--radius:.75rem}
+@theme inline{--color-background:var(--background);--color-foreground:var(--foreground);--color-primary:var(--primary);--color-primary-foreground:var(--primary-foreground);--color-card:var(--card);--color-card-foreground:var(--card-foreground);--color-border:var(--border);--font-sans:Arial,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif}
+*{box-sizing:border-box}body{margin:0;background:var(--background);color:var(--foreground);font-family:Arial,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif}button{cursor:pointer;touch-action:manipulation}.grid-bg{background-image:linear-gradient(rgba(148,163,184,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(148,163,184,.08) 1px,transparent 1px);background-size:28px 28px}
+@media(prefers-reduced-motion:no-preference){button{transition:transform .15s ease,background-color .2s ease}}
